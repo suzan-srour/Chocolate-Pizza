@@ -1,0 +1,67 @@
+.content {
+    position: relative; 
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+div{ 
+    text-align-last: left;
+
+
+
+} 
+
+.bg-img {
+    /* The image used */
+    background-image: url("/assets/list-bg.png");
+  
+    /* Control the height of the image */
+    height: 340px;
+  
+    /* Center and scale the image nicely */
+    background-position: left;
+    background-repeat: no-repeat;
+    position: relative;
+  }
+  
+  /* Add styles to the form container */
+  .container {
+    position: left;
+    right: 300px;
+    margin: 20px;
+    max-width: 300px;
+    padding: 16px;
+    
+  }
+  
+  *input[type=checkbox]:focus {
+    outline: none;
+  } 
+
+
+  
+.container {  
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+  }
+  
+  .container label {
+    margin: 10px 10px 10px 0;
+  }
+  
+  .container{
+    vertical-align: left;
+    margin: 8px 10px 8px 0;
+    padding: 20px;} 
+
+
+    
+p.ex1 {
+    direction: rtl;
+    vertical-align: text-bottom;
+  } 
+
+p.big{
+    line-height: 1.8;
+  }
